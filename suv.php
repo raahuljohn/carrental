@@ -7,7 +7,7 @@ $name = $_SESSION["name"];
 
 if(isset($_POST["car1"]))
 {
-    $_SESSION["car"] = "img/ciaz.jpg";
+    $_SESSION["car"] = "img/fortuner.jpg";
     $_SESSION["carname"] = "Toyota Fortuner";
     $_SESSION["price"] = "Rs.5500/Day";
     header('Location:final.php');
@@ -15,14 +15,14 @@ if(isset($_POST["car1"]))
 if(isset($_POST["car2"]))
 {
     
-    $_SESSION["car"] = "img/city.jpg";
+    $_SESSION["car"] = "img/ecosport.jpg";
     $_SESSION["carname"] = "Ford Ecosport";
     $_SESSION["price"] = "Rs.5000/Day";
     header('Location:final.php');
 }
 if(isset($_POST["car3"]))
 {
-    $_SESSION["car"] = "img/vento.jpg";
+    $_SESSION["car"] = "img/duster.jpg";
     $_SESSION["carname"] = "Renault Duster";
     $_SESSION["price"] = "Rs.5000/Day";
     header('Location:final.php');
